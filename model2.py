@@ -4,8 +4,7 @@ class Program:
 
     def __repr__(self):
         # return "".join(f"{self.instructions}") or ""
-
-        return "\n".join([repr(expr) for expr in self.instructions])
+        return "\n".join([repr(expr) for expr in self.instructions]) or ""
 
 
 class BinaryOperation:
