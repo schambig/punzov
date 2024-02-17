@@ -25,7 +25,7 @@ class BinaryOperation:
         elif self.operation == '*':
             return self.left_side * self.right_side
         elif self.operation == '/':
-            if self.rigth_side == 0:
+            if self.right_side == 0:
                 raise Exception('Can\'t divide by zero.')
             return self.left_side / self.right_side
         elif self.operation == '=':
